@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=546559706edf3349c4fca45ab3431bae">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css?h=18313f04cea0e078412a028c5361bd4e">
+    <link rel="stylesheet" href="assets/css/main.css?h=89c4b81d753e2282c10728619101e573">
+</head>
+
+<body>
+    <div class="m-5">
+        <section class="m-5">
+            <div class="row mx-0">
+                <div class="col-xl-7 offset-xl-0 col-lg-7">
+                    <div class="row mx-0">
+                        <div class="col col-lg-2 px-0">
+                            <div class="row mx-0" id="productImages"></div>
+                        </div>
+                        <div class="col col-lg-10"><img id="productSelectedImage" class="img-fluid w-100" src="#"></div>
+                    </div>
+                </div>
+                <div class="col col-lg-5">
+                    <h3 class="text-primary" id="productName">Product Name</h3>
+                    <h5 id="productPrice">$ 95.99</h5>
+                    <p id="productDesc"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br></p>
+                    <div class="row mx-0" id="productVariations"></div><small>Color:&nbsp;<span class="text-primary" id="colorVariationSelected">Camel</span></small>
+                    <div class="row mx-0">
+                        <div class="col col-12 px-0"><small class="text-success font-weight-bold" id="productAvailability">In stock</small></div>
+                    </div>
+                    <div class="row mx-0 mt-4">
+                        <div class="col px-0 d-flex"><button class="btn btn-primary btn-sm rounded-circle my-auto" id="productQtyMinus" type="button"><i class="fa fa-minus"></i></button><input type="number" id="productQty" class="form-control col-4 col-lg-2 mx-2" min="1" value="1">
+                            <button class="btn btn-primary btn-sm rounded-circle my-auto" id="productQtyPlus" type="button"><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-4">
+                        <div class="col col-6 px-0"><button class="btn btn-primary btn-block nav-trigger" id="addToCart" type="button">ADD TO CART</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="nav-container px-3" id="navigation">
+            <div class="row mx-0">
+                <h5>
+                    <span class="pull-right nav-close">x</span>
+                </h5>
+            </div>
+            <div id="cart-items">
+                <!-- <div class="row mx-0">
+            <div class="col col-6 col-lg-5" style="height:'50px';"><img class="img-fluid w-100" src="assets/img/soheb-zaidi-Ggsh4-vD-MI-unsplash.jpg?h=af9a14835515c01ab20d9ff58f10f2b8" style="height: 150px !important;object-fit: cover;" /></div>
+            <div class="col col-6 col-lg-7 text-primary ">
+                <h5 class="mb-0 text-primary">Product Name</h5>
+                <h5 class="mb-0">$ 95.99</h5><small class="text-primary">Camel </small>
+                <h6 class="mb-0 font-weight-normal">Qty: 2</h6>
+                <h6 class="mb-0 font-weight-normal">$ 191.98</h6>
+            </div>
+        </div> -->
+            </div>
+            <div class="row mx-0">
+                <div class="col text-primary col-12">
+                    <hr class="my-3" />
+                    <h6 class="mb-0 text-primaryMB-3">CART SUBTOTAL<span class="pull-right" id="subTotal">$ 191.98</span></h6>
+                    <hr class="my-3" /><button class="btn btn-primary btn-block" id="checkout" type="button">CHECKOUT</button><button class="btn btn-outline-primary btn-block" id="continueShopping" type="button">CONTINUE SHOPPING</button>
+                </div>
+            </div>
+        </nav>
+        <div class="overlay"></div>
+    </div>
+    <script src="assets/js/jquery.min.js?h=83e266cb1712b47c265f77a8f9e18451"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js?h=e46528792882c54882f660b60936a0fc"></script>
+    <script src="assets/js/cart.js?h=d41d8cd98f00b204e9800998ecf8427e"></script>
+    <script src="assets/js/index.js?h=d41d8cd98f00b204e9800998ecf8427e"></script>
+    <script src="assets/js/main.js?h=c1103dd59922c51b2cb5703035caac0c"></script>
+    <script src="assets/js/products.js?h=e7b00156df93ffca0a8fa7bfafdedce2"></script>
+</body>
+
+</html>
